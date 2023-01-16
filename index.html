@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-container">
+            <img id="logo-img" src="./logo.png" alt="odin logo">
+            <div class="logo-font">Hund</div>
+        </div>
+        <footer>
+            <p class="credit">Photo by <a href="https://unsplash.com/photos/brFsZ7qszSY">Alvan Nee</a> on <a href="https://unsplash.com/">Upslash</a></p>
+        </footer>
+    </div>
+    <div class="main">
+        <div class="section sec-one">
+            <p>Want to <em>volunteer</em> to rescue dogs in need? Or do you want to <em>donate</em> for a good cause?
+                You are in the right place! Create an account to <em>sign up</em>!</p>
+        </div>
+        <form action="#" class="section sec-two">
+            <p class="form-title">Come take part in a great cause!</p>
+            <div class="inputs">
+                <div class="input">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name">
+                </div>
+                <div class="input">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name">
+                </div>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="input">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="error" maxlength="8" minlength="8">
+                </div>
+                <div class="input">
+                    <label for="confirm">Confirm Password</label>
+                    <input type="password" id="confirm" class="error" maxlength="8" minlength="8">
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <div class="section sec-three">
+            <p id="log-in">Already have an account? <a id="anchor-login" href="#">Log In</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
